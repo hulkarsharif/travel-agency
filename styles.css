@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Heade */
+
+header {
+    background-color: #344e41;
+}
+
+nav {
+    background-color: pink;
+    max-width: 1440px;
+    margin: 0 auto;
+}
