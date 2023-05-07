@@ -1,6 +1,4 @@
 * {
-    max-width: 1400px;
-
     box-sizing: border-box;
 }
 body {
@@ -12,8 +10,6 @@ ul {
 /* Header */
 
 header {
-    max-width: 1440px;
-
     background-color: #c0fdfb;
 
     padding-top: 25px;
@@ -24,7 +20,7 @@ header {
 
 h1 {
     text-align: center;
-    color: ccd5ae;
+    color: #ccd5ae;
     margin-left: 25px;
     /*font-size: 50px;*/
 }
