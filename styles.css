@@ -1,14 +1,11 @@
 * {
-
-   
-    padding: 0;
-
-
-   
+    margin: 0 auto;
 
     box-sizing: border-box;
 }
+
 body {
+    max-width: 1440px;
     background-color: #dee2ff;
     font-family: "Open Sans", sans-serif;
 }
@@ -21,7 +18,7 @@ ul {
 header {
     height: 80px;
     color: #f6aa1c;
-    background-color: #abd1b5;
+    /*background-color: #abd1b5;*/
     max-width: 1440px;
     margin: 0 auto;
     padding-left: 80px;
@@ -30,9 +27,9 @@ header {
 
 h1 {
     text-align: center;
-    color: #ccd5ae;
+    color: #9b2226;
     margin-left: 25px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 h2 {
@@ -51,15 +48,14 @@ h3 {
 .navigation {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #5c6d70;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-
     padding-left: 80px;
     padding-left: 80px;
 }
+
 .navigation__links {
     display: flex;
     gap: 40px;
@@ -71,12 +67,14 @@ h3 {
 
 .hero-section__image img {
     width: 100%;
+    /*height: auto;*/
 }
 
 .hero-section__description {
     max-width: 1440px;
     margin: 0 auto;
-    color: #f28482;
+    font-size: 20px;
+    color: #bc4749;
 }
 /*Destination-section*/
 
@@ -86,15 +84,16 @@ h3 {
     align-items: center;
     height: 100px;
     color: #e63946;
+    padding: 0;
 }
 
 .destination-section__container h2 {
     text-align: center;
     font-size: 20px;
-    line-height: 30px;
+    /*line-height: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
-    color: #9e1c10;
+    color: #9e1c10;*/
 }
 
 .destination-table {
@@ -138,7 +137,6 @@ td {
     text-align: center;
 }
 
-
 .hero-section__video h2 {
     text-align: left;
     font-size: 20px;
@@ -151,17 +149,13 @@ td {
 #iframe {
     margin-top: 10px;
     margin-bottom: 50px;
-
-th {
-    background-color: #81b29a;
- main
 }
 
-/*Contact us*/
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
 }
+
 th,
 td {
     border: 1px solid black;
@@ -172,6 +166,7 @@ th {
     background-color: #a4c3b2;
 }
 
+/*Contact us*/
 .contact-header {
     max-width: 1440px;
     margin: 0 auto;
@@ -194,6 +189,7 @@ th {
 
 .inquire-section {
     background-color: #a4c3b2;
+    width: 100%;
 }
 
 #emailInput {
@@ -214,14 +210,19 @@ dl {
     color: #9d8189;
 }
 .question-section h5 {
+    width: 100%;
     text-align: center;
     font-size: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+
     padding-bottom: 10px;
     width: 1200px;
     background-color: #74c69d;
     border-radius: 15px;
+}
+.question-section {
+    margin: 24px;
 }
 
 /*Footer*/
