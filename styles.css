@@ -1,5 +1,11 @@
 * {
+
+   
     padding: 0;
+
+
+   
+
     box-sizing: border-box;
 }
 body {
@@ -132,6 +138,113 @@ td {
     text-align: center;
 }
 
+
+.hero-section__video h2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+    color: #785964;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+#iframe {
+    margin-top: 10px;
+    margin-bottom: 50px;
+
 th {
     background-color: #81b29a;
+ main
+}
+
+/*Contact us*/
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th,
+td {
+    border: 1px solid black;
+
+    text-align: center;
+}
+th {
+    background-color: #a4c3b2;
+}
+
+.contact-header {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    background-color: #eee4e1;
+    /*padding-top: 15px;
+    height: 80px;
+    padding-right: 80px;
+    padding-left: 80px;*/
+}
+.contact-all {
+    width: 100%;
+}
+.contact-header h1 {
+    font-size: 30px;
+    color: #780116;
+}
+
+/* Contact */
+
+.inquire-section {
+    background-color: #a4c3b2;
+}
+
+#emailInput {
+    margin-top: 15px;
+}
+#telInput {
+    margin-top: 15px;
+}
+#passwordInput {
+    margin-top: 15px;
+}
+h4 {
+    color: #780116;
+
+    font-size: 20px;
+}
+dl {
+    color: #9d8189;
+}
+.question-section h5 {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    width: 1200px;
+    background-color: #74c69d;
+    border-radius: 15px;
+}
+
+/*Footer*/
+
+.footer-contact {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #b5838d;
+}
+.footer-social__icons {
+    margin-top: 40px;
+}
+.footer__logo {
+    margin-bottom: 25px;
+    color: #252422;
+    line-height: 20px;
+    text-align: center;
+}
+.footer__logo p {
+    color: #780116;
+}
+.footer-page li {
+    text-align: center;
+    color: #780116;
+    line-height: 35px;
 }
