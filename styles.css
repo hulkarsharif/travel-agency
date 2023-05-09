@@ -82,3 +82,40 @@ h1 {
 }
 
 /*Contact us*/
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th,
+td {
+    border: 1px solid black;
+
+    text-align: center;
+}
+th {
+    background-color: #a4c3b2;
+}
+
+.contact-header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 15px;
+    height: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+/* Contact */
+.information {
+    display: flex;
+    gap: 70px;
+}
+.inquire-section {
+    background-color: #a4c3b2;
+}
+
+/*Footer*/
+
+.footer-logo {
+    font-size: 30px;
+    color: rgb(147, 157, 165);
+}

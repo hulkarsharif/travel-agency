@@ -15,37 +15,212 @@
     </head>
     <body>
         <section class="contact-header">
-            <h1>Contact Us</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Office Name</th>
-                        <th>Address</th>
-                        <th>Contact Number</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ya'lla Tours</td>
-                        <td>Ya'lla Tours USA, Inc</td>
-                        <td>(503) 977-3758</td>
-                        <td>information@yallatours.com</td>
-                    </tr>
-                    <tr>
-                        <td>Ya'lla Tours</td>
-                        <td>50400 Ürgüp/Nevşehir, Istanbul</td>
-                        <td>+90 541 341 44 16</td>
-                        <td>info@turkeytraveldmc.com</td>
-                    </tr>
-                    <tr>
-                        <td>Ya'lla Tours</td>
-                        <td>450 W Broad St # 204, Falls Church</td>
-                        <td>(703) 237-9040</td>
-                        <td>info@istanbultravel</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div>
+                <h1>Contact Us</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Office Name</th>
+                            <th>Address</th>
+                            <th>Contact Number</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ya'lla Tours</td>
+                            <td>Ya'lla Tours USA, Inc</td>
+                            <td>(503) 977-3758</td>
+                            <td>information@yallatours.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ya'lla Tours</td>
+                            <td>50400 Ürgüp/Nevşehir, Istanbul</td>
+                            <td>+90 541 341 44 16</td>
+                            <td>info@turkeytraveldmc.com</td>
+                        </tr>
+                        <tr>
+                            <td>Ya'lla Tours</td>
+                            <td>450 W Broad St # 204, Falls Church</td>
+                            <td>(703) 237-9040</td>
+                            <td>info@istanbultravel</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form class="inquire-section">
+                <h2>Inquiry Form</h2>
+                <label for="userNameInput">User name</label>
+                <input
+                    type="text"
+                    id="usernameInput"
+                    name="fullName"
+                    placeholder="Full Name"
+                    required
+                /><br />
+
+                <label for="emailInput">Email Address</label>
+                <input
+                    type="email"
+                    id="emailInput"
+                    name="email"
+                    placeholder="Email"
+                    required
+                />
+                <br />
+
+                <label for="telInput">Phone Number: 231-456-7890</label>
+                <input
+                    type="tel"
+                    required
+                    id="telInput"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    name="phoneNumber"
+                />
+
+                <label for="preferrefDestinationSelect"
+                    >Preferred Destinations</label
+                >
+                <select
+                    name="preferredDestination"
+                    id="preferredDestinationSelect"
+                >
+                    <option value="Cappadocia">Cappadocia</option>
+                    <option value="Antalya">Antalya</option>
+                    <option value="Bursa">Bursa</option>
+                </select>
+
+                <div>
+                    <h4>Preferred Travel Services</h4>
+                    <label for="preferredFlightCheckbox">Flight</label>
+                    <input
+                        type="checkbox"
+                        id="preferredFlightCheckbox"
+                        name="isFlightChecked"
+                    />
+
+                    <label for="preferredHotelsCheckbox">Hotels</label>
+                    <input
+                        type="checkbox"
+                        id="preferredHotelsCheckbox"
+                        name="isHotelsChecked"
+                    />
+
+                    <label for="preferredToursCheckbox">Tours</label>
+                    <input
+                        type="checkbox"
+                        id="preferredToursCheckbox"
+                        name="isToursChecked"
+                    />
+
+                    <label for="preferredCarRentalsCheckbox">Car Rentals</label>
+                    <input
+                        type="checkbox"
+                        id="preferredCarRentalsCheckbox"
+                        name="isCarRentalsChecked"
+                    />
+                </div>
+                <h4>Preferred Mode of Communication:</h4>
+                <label for="emailRadioInput">Email</label>
+                <input
+                    type="radio"
+                    id="emailRadioInput"
+                    name="comunicationFormat"
+                    value="Email"
+                />
+                <label for="phoneNumberRadioInput">Phone Number</label>
+                <input
+                    type="radio"
+                    id="phoneNumberRadioInput"
+                    name="comunicationFormat"
+                    value="Phone Number"
+                />
+                <label for="smsRadioInput">SMS</label>
+                <input
+                    type="radio"
+                    id="smsRadioInput"
+                    name="comunicationFormat"
+                    value="SMS"
+                />
+
+                <div>
+                    <label for="commentsTextarea"
+                        >Additional Comments or Questions</label
+                    >
+                    <textarea
+                        name="comments"
+                        id="commentsTextarea"
+                        cols="40"
+                        rows="5"
+                    ></textarea>
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+
+            <section class="question-section">
+                <div>
+                    <h4>Turkey FAQs</h4>
+                    <dl>
+                        <dt>
+                            <strong
+                                >Q: What is the best time to travel to
+                                Turkey?</strong
+                            >
+                        </dt>
+
+                        <dd>
+                            A: Like most European destinations, the summer
+                            months are the most popular but also the hottest. If
+                            the purpose of visiting Turkey is to spend time by
+                            the beach, the summer months are ideal. For those
+                            looking to visit Turkey for sightseeing, visiting in
+                            the Spring and Fall months is much better for
+                            pleasant temperatures and sightseeing at all the top
+                            attractions.
+                        </dd>
+                        <dt>
+                            <strong
+                                >Q: Do I need a visa to travel to
+                                Turkey?</strong
+                            >
+                        </dt>
+                        <dd>
+                            A: For Canadian and American citizens who are
+                            travelling to Turkey for 90 days or less, an e-Visa
+                            is required prior to arrival in Tur
+                        </dd>
+                        <dt>
+                            <strong>Q: What currency is used in Turkey?</strong>
+                        </dt>
+                        <dd>
+                            A: The Turkish lira (TRY or TL) is the currency used
+                            in Turkey. Visa and Mastercard are also accepted
+                            however it is recommended to call ahead and advise
+                            the credit card company of travel plans to avoid
+                            interruptions while on vacation. It is best to have
+                            cash on hand for travel to more remote areas.
+                        </dd>
+                    </dl>
+                </div>
+            </section>
         </section>
+        <footer id="footer">
+            <div class="contact-footer">
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img
+                            src="./plane.png"
+                            alt="plane"
+                            class="globe-plane"
+                        />
+                        <h4>YA'ALLA TOUR</h4>
+                    </div>
+                    <p>
+                        Copyright &copy: 2023 BY HİT THE ROAD TRAVEL AGENCY
+                        Turkey Travel DMC
+                    </p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
