@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --red-color: #9b2226;
+    --darkorange-color: #ab3428;
+    --darkred-color: #780116;
+    --lightred-color: #d81220;
+    --cherry-color: #bc4749;
+    --lightcherry-color: #e63946;
+    --lightplum-color: #785964;
+    --orange-color: #f6aa1c;
+}
+
 body {
     max-width: 1440px;
     background-color: #dee2ff;
@@ -17,7 +28,6 @@ ul {
 
 header {
     height: 80px;
-    color: #f6aa1c;
     /*background-color: #abd1b5;*/
     max-width: 1440px;
     margin: 0 auto;
@@ -27,7 +37,8 @@ header {
 
 h1 {
     text-align: center;
-    color: #9b2226;
+    color: var(--red-color);
+
     margin-left: 25px;
     font-size: 40px;
 }
@@ -35,13 +46,13 @@ h1 {
 h2 {
     text-align: center;
     font-size: 25px;
-    color: #ab3428;
+    color: var(--darkorange-color);
 }
 
 h3 {
     text-align: left;
     font-size: 25px;
-    color: #d81220;
+    color: var(--lightred-color);
 
     text-decoration-line: underline;
 }
@@ -83,7 +94,7 @@ h3 {
     margin: 0 auto;
     align-items: center;
     height: 100px;
-    color: #e63946;
+    color: var(--lightcherry-color);
     padding: 0;
 }
 
@@ -141,7 +152,7 @@ td {
     text-align: left;
     font-size: 20px;
     line-height: 25px;
-    color: #785964;
+    color: var(--lightplum-color);
     margin-bottom: 20px;
     margin-top: 45px;
 }
@@ -182,7 +193,7 @@ th {
 }
 .contact-header h1 {
     font-size: 30px;
-    color: #780116;
+    color: var(--darkred-color);
 }
 
 /* Contact */
@@ -202,7 +213,7 @@ th {
     margin-top: 15px;
 }
 h4 {
-    color: #780116;
+    color: var(--darkred-color);
 
     font-size: 20px;
 }
@@ -242,10 +253,10 @@ dl {
     text-align: center;
 }
 .footer__logo p {
-    color: #780116;
+    color: var(--darkred-color);
 }
 .footer-page li {
     text-align: center;
-    color: #780116;
+    color: var(--darkred-color);
     line-height: 35px;
 }
